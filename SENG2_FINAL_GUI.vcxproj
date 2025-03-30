@@ -19,12 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
-    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="City.h" />
+    <ClInclude Include="MainApp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
-    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="City.cpp" />
+    <ClCompile Include="MainApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\TEMP\SENG-2-Project-main\SENG2ExcelFile - Sheet1.csv" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
